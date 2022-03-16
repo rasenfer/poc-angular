@@ -11,22 +11,40 @@
 npm-debug.log
 yarn-error.log
 
+# Angular
+.angular
+
 # IDEs and editors
 .idea/
 .project
 .classpath
 .c9/
-*.launch
+.settings
+.springBeans
+.sts4-cache
 .settings/
+*.launch
 *.sublime-workspace
 
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+nbproject/private
+nbbuild
+nbdist
+.nb-gradle
+
 # Visual Studio Code
-.vscode/*
+.vscode
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-.history/*
+.history
 
 # Miscellaneous
 /.angular/cache
